@@ -106,7 +106,7 @@ async def send_to_discord(embed):
 async def process_cards():
     try:
         logging.info("📥 Generating cards...")
-        cards = generate_cards("520806", count=10)
+        cards = generate_cards("388896", count=10)
 
         if not cards:
             logging.warning("⚠️ No cards generated. Waiting for new data...")
